@@ -1,0 +1,34 @@
+{
+    "courseId": "memorable-pandas",
+    "title": "An online course for learning the Pandas Python library.",
+    "slogan": "A Memorable Course",
+    "description": "Memorable Tech learning tools. Nice for the brain.",
+    "bio": "Brought to you by Memorable Tech.",
+    "siteUrl": "https://memtech.netlify.com",
+    "twitter": "discdiver",
+    "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
+    "testTemplate": "from wasabi import Printer\n__msg__ = Printer()\n__solution__ = \"\"\"${solution}\"\"\"\n\n${solution}\n\n${test}\n\ntry:\n    test()\nexcept AssertionError as e:\n    __msg__.fail(e)",
+    "juniper": {
+        "repo": "discdiver/memorable-pandas",
+        "branch": "binder",
+        "lang": "python",
+        "kernelType": "python3",
+        "debug": false
+    },
+    "showProfileImage": true,
+    "footerLinks": [
+        {
+            "text": "Website",
+            "url": "https://memorabletech.com"
+        },
+        {
+            "text": "Source",
+            "url": "https://github.com/discdiver/memorable-pandas"
+        },
+        {
+            "text": "Platform source code developed based on work of Ines Montani",
+            "url": "https://github.com/ines/course-starter-python"
+        }
+    ],
+    "theme": "#FE7F2A"
+}

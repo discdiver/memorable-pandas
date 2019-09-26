@@ -18,7 +18,7 @@ id: 1
 
 <exercise id="2" title="Your first quiz">
 
-This is a quiz. 
+This is a quiz. 😀
 Select your choice and click the *Submit* button. 
 When you are ready to move on, click the *Mark as completed button* 
 and then click the *Next* button.
@@ -35,7 +35,7 @@ This is the right answer, clearly. ☀️🐼 Mark as completed and click *Next*
 
 <opt text="Any other answer.">
 
-Wrong! Clearly a panda with a sunburn! Come on.
+Wrong! Clearly a panda with a sunburn! Come on. 😁
 
 </opt>
 

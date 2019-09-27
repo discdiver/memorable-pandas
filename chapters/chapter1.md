@@ -59,17 +59,57 @@ Have you included a double underscore on either side of *version*?
 
 </exercise>
 
-<exercise id="4" title="Create a DataFrame">
+<exercise id="4" title="Create a DataFrame from a dict">
 
 DataFrames are like super spread sheets. 
 There are a several ways to create one. 
-The simplest way is to call *pd.DataFrame()* with a dictionary as an argument.
+The simplest way is to call the constructor *pd.DataFrame()* with a dictionary as an argument.
+
 The dictionary keys become the column names and the dictionary values become the DataFrame values. 
 
 <codeblock id="01_04">
 
-Pass in sample_dict.
+Pass in *sample_dict*.
 
 </codeblock>
 
 </exercise>
+
+
+
+
+<exercise id="5" title="Create a DataFrame from a NumPy array">
+
+The second common way to create a DataFrame is by converting a NumPy array.
+
+<codeblock id="01_05">
+
+hint 05
+
+</codeblock>
+
+</exercise>
+
+
+
+<exercise id="6" title="Create a DataFrame from a Pandas function">
+
+The third common way to create a DataFrame is by filling it with data from a Pandas function.
+
+pd.util.testing.makeDataFrame() 
+pd.util.testing.makeMissingDataframe() 
+pd.util.testing.makeTimeDataFrame() 
+pd.util.testing.makeMixedDataFrame()
+
+<codeblock id="01_06">
+
+hint 06
+
+</codeblock>
+
+</exercise>
+
+
+
+
+
